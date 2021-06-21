@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/login_background.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    width: 500px;
+    height: 550px;
+    position: relative;
+    margin: 6% auto;
+    background: #ffffff;
+    padding: 5px;
+}
+
+
+.input-group{
+    position: absolute;
+    width: 480px;
+    transition: .5s;
+}
+.input-field, .select-form{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: 1px solid  #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+
+#fileToUpload{
+    margin: 5px 10px 30px 0;
+}
+#span-id{
+    color: #777;
+    font-size: 20px;
+    bottom: 68px;
+    position: center;
+    padding-left: 180px;
+    padding-bottom: 5px;
+
+}
+label{
+    color: #777;
+    font-size: 13px;
+    bottom: 68px;
+}
+
